@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>My portfolio</title>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar"><a href="#"></a></nav>
+
+<div class="container">
+    <div class="menu">
+        <a href="#welcome-section" class="menu-icon fas fa-home"></a>
+        <a href="#about" class="menu-icon fas fa-user"></a>
+        <a href="#contact" class="menu-icon fas fa-envelope"></a>
+    </div>
+    <div class="portfolio">
+        <section class="header">
+            <img class="header-img"
+                src="https://images.pexels.com/photos/2389349/pexels-photo-2389349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="" />
+            <h1>Giridharan.k</h1>
+            <h2>Web Developer</h2>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/giridharan-k-93b50222a" target="_blank" class="fab fa-linkedin-in" id="profile-link"></a>
+                <a href="https://github.com/Giri2003k" target="_blank" class="fab fa-github"></a>
+            </div>
+            <a href="GIRIDHARAN_K - 611221205018.pdf" class="cta">DownIoad Resume</a>
+        </section>
+        <div class="content">
+            <section class="content-card home" id="welcome-section">
+                <h1>Hello, I am Giridharan.K</h1>
+            </section>
+            <section class="content-card about" id="about">
+                <h1>About me</h1>
+                <div class="about-item about-me">
+                    <p>
+                        Hello, I am Giridharan, currently pursuing my undergraduate studies at KIOT.
+                         As a dedicated and enthusiastic student, I am passionate about expanding my
+                          knowledge and skills in my chosen field of study.  Throughout my academic journey, 
+                             I believe that education is not only about gaining theoretical knowledge 
+                             but also about its practical application, and I am eager to apply what 
+                             I learn to real-world challenges. With a focus on academic excellence and
+                              a desire to contribute positively to my community
+                    </p>
+                </div>
+                <div class="col-2">
+                    <div class="about-item skills">
+                        <h1>Skills</h1>
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Python</span>
+                    </div>
+
+                    <div class="about-item languages">
+                        <h1>Languages</h1>
+                        <div class="language">
+                            <p>Tamil</p>
+                            <span class="bar"><span class="polish"></span></span>
+                        </div>
+                        <div class="language">
+                            <p>english</p>
+                            <span class="bar"><span class="english"></span></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-card contact" id="contact">
+                <h1>Contact</h1>
+                <form class="form" id="form" action="send()" onsubmit="send(); reset(); return false">
+                    <div class="input-box">
+                        <input type="text" class="text-input" name="name" placeholder="Name" />
+                    </div>
+                    <div class="input-box">
+                        <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="input-box">
+                        <input type="subject" class="text-input" name="subject" id="subject"
+                            placeholder="Subject" />
+                    </div>
+                    <div class="input-box">
+                        <textarea name="text" class="message" placeholder="Message..."></textarea>
+                    </div>
+                    <div class="input-box">
+                        <input type="submit" class="submit-btn" id="submit" value="submit" />
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
